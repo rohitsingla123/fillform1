@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0%;
+        }
+        body
+        {
+            margin-top: 2%;
+        }
+        h1
+        {
+            text-align: center;
+        }
+        h2
+        {  
+
+            /* margin-bottom:50%; */
+            margin-top:5%;
+            /* color: red; */
+        }
+        input[type="text"]
+        {
+            width:100%;
+            border: cyan solid 1px;
+            margin-bottom:4%;
+            height: 100px;
+        }
+        input[type="submit"]
+        {
+            /* height: 100px;
+            width: 100px; */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 25px;
+            margin-left: 45%;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC XYZ form</h1>
+    <form method="post" action="details.php">
+        <label for="name" class="in"><h2>Name</h2></label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email" class="in" ><h2>Email Id</h2></label>
+        <input type="text" name="email" id="email"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
